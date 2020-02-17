@@ -1006,15 +1006,16 @@ input[type="text"]:focus {
  box-shadow:4px 4px 0 #b3b3b3
 }
 #modal ul {
- display:block;
+ display:inline-block;
  list-style-type:none;
  padding-left:0;
  margin-left:auto;
  margin-right:auto;
- font-size:0;
+ font-size:2em;
 }
 #modal ul li {
- display:inline-block
+    width: 200px;
+ /*display:inline-block*/
 }
 #modal .icon {
  outline:none;
